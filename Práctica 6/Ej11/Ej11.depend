@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1592407471 source:f:\cursada 2020\taller de lenguajes 1\práctica 6\ej11\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pila.h"
+
+1592407298 f:\cursada 2020\taller de lenguajes 1\práctica 6\ej11\pila.h
+

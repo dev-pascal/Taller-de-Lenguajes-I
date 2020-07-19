@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585290228 source:c:\users\gaia\desktop\taller de lenguajes 1\práctica 1 - adicional\ej3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

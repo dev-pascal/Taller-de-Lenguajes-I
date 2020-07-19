@@ -1,0 +1,29 @@
+a)
+vector[0]=13
+vector[1]=23
+vector[2]=33
+vector[3]=43
+vector[4]=53
+vector[5]=63
+vector[6]=73
+vector[7]=83
+vector[8]=93
+vector[9]=103
+b)Línea 6:
+La razón por la cual la variable vector se verá modificada es porque al
+aplicar el operador de indirección sobre el, este puede devolver el
+contenido del arreglo desde hacia el cual apunta, entonces con una
+operación de asignación puedo cambiar el contenido que hay dentro de él.
+Línea 8:
+Ahora se realizará un desplazamiento (en uno) de los elementos del arreglo 
+desde la posición de la memoria. La única desventaja aquí es que se pierde 
+el puntero al primer elemento, y ocasionaría problemas si uno luego como 
+programador quisiera acceder al mismo nuevamente.
+c) Son operaciones equivalentes en este caso. Puesto que en C los arreglos
+tienen una estrecha relación con los punteros, dado que un vector indica
+implicitamente un puntero al elemento i-ésimo de él (en este caso).
+d) Si se cambia la línea 8 por p+=1:
+Se realizará un desplazamiento de los elementos del arreglo (de uno en uno).
+En este caso es equivalente a poner p++.
+e) Si se cambia la línea 8 por p+=2:
+Se realizará un desplazamiento de los elementos del arreglo (de dos en dos)

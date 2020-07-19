@@ -1,0 +1,6 @@
+3) Se imprimen las direcciones de memoria del puntero p, siguiendo a la 
+dirección de memoria a la que apunta (apuntará al primer elemento del
+arreglo), luego al realizar el incremento en uno al puntero p lo que hace
+es realizar un desplazamiento en uno de la localización de su dirección
+de memoria en la que se encontraba, ahora al hacer este desplazamiento
+el puntero p apuntará al segundo elemento del arreglo.

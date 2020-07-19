@@ -1,0 +1,8 @@
+2a) Cuando se asigna un char a un int, se le asigna el contenido que tiene la tabla ASCII a partir 
+de la posición que contiene el número como variable. Mientras que si se asignara un int a un char 
+pasa lo contrario, devuelve la posición en la que está en la tabla ASCII.
+No presenta ningún warning.
+2b) El DOUBLE es un FLOAT con doble precisión, de allí el nombre. Por doble precisión es porque 
+tiene el doble de capacidad para dígitos.
+2d) El operador sizeof es aquel que permite obtener la cantidad de bytes que ocupa un tipo
+de dato en la memoria de la computadora.

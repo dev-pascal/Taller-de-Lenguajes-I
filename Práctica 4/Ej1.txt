@@ -1,0 +1,33 @@
+a) Código 1: Estático.
+Código 2: De longitud variable.
+Código 3: Dinámico.
+
+b) Código 1: El compilador sabe de antemano que tiene
+para alocar 50 enteros.
+Código 2: El compilador no sabe de antemano cuánto 
+tiene que alocar exactamente, hasta que el programa no
+se ejecute y el usuario indique un valor.
+Código 3: El compilador tampoco sabe de antemano cuánto
+tiene que alocar, pues es una estructura dinámica donde
+su cantidad de elementos a alocar puede ser variada a 
+lo largo de la ejecución del programa, entonces se asigna
+en tiempo de ejecución el determinar cuanta memoria se
+reservará.
+
+c) Código 1: sizeof(int)*N
+Código 2: sizeof(int)*n
+Código 3: sizeof(int)*N
+
+Y tanto N como n pesan 50, entonces todos pesarían
+sizeof(int)*50= 4*50= 200 bytes.
+
+d) Solamente es posible liberar la memoria reservada
+en el código 3 haciendo uso de la función calloc.
+
+e) En todos no se liberaría la memoria reservada
+al finalizar el programa?
+
+f) En el código 1 y 2 no, mientras que en el
+código 3 sí. ****
+
+g) Creo que sí. ***

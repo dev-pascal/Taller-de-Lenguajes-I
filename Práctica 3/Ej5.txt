@@ -1,0 +1,22 @@
+a) Todas estas funciones se encargan de reservar espacio en la memoria heap,
+agregando una cierta cantidad de elementos con su correspondiente tamaño
+en bytes.
+La diferencia que hay entre el malloc y el calloc es que, la segunda
+mencionada se encarga en inicializar en cero el contenido de todos sus bits y 
+se debe especificar que cantidad de elementos de memoria que queremos reservar,
+mientras que el malloc esto no lo hace.
+La función realloc se encarga de modificar el tamaño reservado en memoria,
+que puede ser mayor o menor a lo que uno tenía anteriormente, es decir, se
+puede ganar o perder más tamaño en memoria según lo que necesite el programador.
+
+b) Sí, podría utilizarse la función realloc en lugar de la función malloc.
+Como malloc reserva espacio en memoria, sería equivalente a decir que quiera
+modificar el espacio en memoria agregandole más contenido del que ya tenía.
+Si realloc se invoca con el valor 0 como parámetro size es equivalente a 
+utilizar la función free() que se encarga de liberar el espacio en memoria 
+de ese puntero.
+
+c) La utilidad que tiene el operador sizeof a la hora de reservar memoria
+dinámicamente es que uno como programador no se tiene que estar acordando de 
+cuántos bytes tiene cada tipo, por lo que le ahorra al programador el tener que
+ese cálculo de cúanto podría llegar a pesar cada tipo.

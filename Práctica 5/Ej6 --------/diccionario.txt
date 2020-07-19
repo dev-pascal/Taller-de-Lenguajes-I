@@ -1,0 +1,4 @@
+celular
+computadora
+casa
+mesa

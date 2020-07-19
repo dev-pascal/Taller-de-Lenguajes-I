@@ -1,0 +1,15 @@
+1)
+struct persona {
+ char nombre[50];
+ long int DNI;
+} unaPersona;
+typedef struct persona persona_t;
+
+2)
+typedef struct persona {
+ char nombre[50];
+ long int DNI;
+} persona_t;
+
+_____
+

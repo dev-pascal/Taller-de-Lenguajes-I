@@ -1,0 +1,3 @@
+a) Con la varible m se puede modelar un arreglo dinámico. ***
+(duda: se puede modelar de alguna forma más?)
+b) No, porque para eso m debería ser un doble puntero. ***

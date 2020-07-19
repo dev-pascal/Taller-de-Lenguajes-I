@@ -1,0 +1,27 @@
+El código imprime que ptr es NULL.
+Esto es debido a que, si ni bien en la función se ha reservado un
+espacio en memoria en el puntero, hay que tener en cuenta que este
+no devuelve nada, pues así como está el código solamente se ha pasado
+como parámetro una copia del puntero, por lo que en realidad no sería
+ese mismo originalmente, sino uno local a la función. Para poder evitar
+que salga que ptr es null y hacer una modificación dentro de una función
+habrá que buscar una manera para hacer que el puntero devuelva el puntero
+pasado por copia ya modificado y asignarle ese mismo al puntero original.
+
+Sería:
+
+int * f (int * p);
+int main(){
+    int * ptr = NULL;
+    ptr=f(ptr); // Observar como le asigno el valor del puntero que retorna la
+//función al puntero original y de allí si se realiza realmente la reserva de memoria.
+    if (ptr == NULL)
+        printf("ptr es NULL\n");
+    else
+        printf("ptr no es NULL\n");
+    return 0;
+}
+int * f (int * p) {
+    p = (int *) malloc(10*sizeof(int));
+    return p;
+}

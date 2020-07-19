@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586954013 source:f:\cursada 2020\taller de lenguajes 1\práctica 2\strings\ej7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

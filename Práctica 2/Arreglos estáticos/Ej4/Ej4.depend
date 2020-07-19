@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1586057723 source:f:\cursada 2020\taller de lenguajes 1\práctica 2\arreglos estáticos\ej4\main.c
+	<stdio.h>
+	<stdlib.h>
+

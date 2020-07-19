@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592187744 source:f:\cursada 2020\taller de lenguajes 1\práctica 6\ej6\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -1,0 +1,22 @@
+9a y 9b) Ambos códigos imprimen la misma cosa, ya que en el bloque de accion 
+posterior de la estructura de control for es indistinto el uso de un pos-incremento
+o al de un pre-incremento.
+
+0 1 2 3 4 5 6 7 8 9 10 11
+
+c)Imprime todos los números pares que hay dentro de un intervalo desde
+2 hasta 11.
+
+2 4 6 8 10
+
+d) Se utiliza en una pre-multiplicación en el bloque de acción posterior de la 
+estructura de control, y de alguna manera si se lo ve bien este código va a ir
+mostrando las potencias con base a 2 a un exponente desde 0 hasta 3.
+
+1 2 4 8
+
+e) Podría pensarse como una representación del for i:=sup donwto inf en Pascal.
+Se irán imprimiendo todos los números impares desde 1 hasta 11, de una manera
+descendente.
+
+11 9 7 5 3 1

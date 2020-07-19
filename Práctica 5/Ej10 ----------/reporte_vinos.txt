@@ -1,0 +1,4 @@
+Atributo	Acidez Fija	Acidez Volatil	Acido Citrico	Azucares Residuales	PH		Sulfatos	Alcohol		Calidad
+Promedio	64.20		5.23		0.66		15.20			26.84		4.52		77.00		43.00		
+Minimo		7.30		0.28		0.00		1.20			3.16		0.46		9.40		5.00		
+Maximo		11.20		0.88		0.56		2.60			3.51		0.68		10.00		7.00		
