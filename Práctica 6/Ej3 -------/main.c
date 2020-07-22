@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
         case '-':
             printf("%d",atoi(argv[1])-atoi(argv[2]));
             break;
-        case 'b': //por que cuando pongo * no funciona?
+        case 'x': /*en realidad deberia ser * pero el codeblocks por algun motivo se bugea cuando se lo pone*/
             printf("%d",atoi(argv[1])*atoi(argv[2]));
             break;
         case '/':
