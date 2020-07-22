@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*Hay que usar registros aca?*/
 int main()
 {
     int codigo;
