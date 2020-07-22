@@ -9,8 +9,7 @@ int main()
     int *v=NULL;
     for (i=1;i<=n;i++)
         if (n%i==0) {
-            j++;
-            v=realloc(v,j*sizeof(int));
+            v=realloc(v,++j*sizeof(int));
             v[j-1]=i;
         }
     for (i=0;i<j;i++)
