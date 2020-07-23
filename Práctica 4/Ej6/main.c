@@ -21,7 +21,6 @@ int ** reservarMemoria(int n) {
     int i;
     for (i=0;i<n;i++) {
         mat[i]=(int *)malloc((n-i)*sizeof(int));
-        //y por que no se puede hacer *mat en lugar de *mat[i]?
     }
     return mat;
 }
