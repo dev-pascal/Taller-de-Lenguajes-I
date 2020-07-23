@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*Como hacer un modulo de carga de un vector?*/
 int main()
 {
     srand(getpid());
